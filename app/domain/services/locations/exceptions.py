@@ -1,0 +1,2 @@
+class LocationDoesNotExist(Exception):
+    pass

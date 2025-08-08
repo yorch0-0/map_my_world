@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+.env
+app/.env
+
+# Archivos de configuración locales
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Archivos del editor/IDE
+*.swp
+*.swo
+*.bak
+*.log
+*.db
+.DS_Store
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker-compose.override.yml

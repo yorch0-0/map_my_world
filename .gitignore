@@ -1,0 +1,46 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales / backups
+*.log
+*.pot
+*.pyc
+*.pyo
+*.orig
+*.swp
+
+# Archivos de configuración del entorno
+app/.env
+.env.*
+
+# Alembic
+alembic.ini
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# VSCode
+.vscode/
+.idea/
+
+# Mac / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Archivos de testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Base de datos SQLite (si usas)
+*.sqlite3
+*.db
+
+# Otros
+.mypy_cache/
